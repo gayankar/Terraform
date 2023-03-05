@@ -176,7 +176,7 @@ resource "aws_network_acl_association" "main2" {
   subnet_id      = aws_subnet.Public-2.id
  }
 
-#Careate EC2 instnace one#Careate EC2 instnace one
+#Careate EC2 instnace one
 resource "aws_instance" "wordpress_1" {
 
   ami  = "ami-04bcb19e4c2aec503"
