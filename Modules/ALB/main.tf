@@ -222,7 +222,8 @@ resource "aws_eip" "wordpress-eip" {
     Name = "wordpress-eip"
   }
 }
-#Create an ALB resource: Define a new Application Load baancer resource, specifying
+#Create an ALB resource:
+# Define a new Application Load baancer resource, specifying
 #the listeners and target groups that it should use. You can also associate any
 #relevant tags with the ALB.
 
