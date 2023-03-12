@@ -56,8 +56,7 @@ resource "aws_lb_listener" "alb_https_listener" {
     port              = 443
     protocol          = "HTTPS"
     ssl_policy        = ""
-    certificate_arn   = 
-
+   
     default_action {
         type                = "forward"
         target_group_arn    = aws_lb_target_group.my_target_group.arn
